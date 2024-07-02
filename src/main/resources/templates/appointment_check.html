@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Check Appointment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<style>
+		body {
+			background-color: #f0f0f0; /* Light grey background */
+			font-family: Arial, sans-serif;
+			text-align: center;
+			padding: 20px;
+			margin: 0;
+		}
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			background-color: #fff;
+			padding: 30px;
+			border-radius: 8px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+		}
+
+		h1 {
+			margin-bottom: 20px;
+			color: #333;
+		}
+
+		p {
+			font-size: 18px;
+			color: #666;
+			margin-bottom: 10px;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			border: 1px solid #ccc;
+			margin-top: 20px;
+		}
+
+		th, td {
+			padding: 12px;
+			border: 1px solid #ccc;
+		}
+
+		button {
+			padding: 10px 20px;
+			margin-top: 20px;
+			cursor: pointer;
+			background-color: #007bff;
+			color: #fff;
+			border: none;
+			border-radius: 4px;
+			font-size: 16px;
+			text-decoration: none;
+		}
+
+		button:hover {
+			background-color: #0056b3;
+		}
+	</style>
+</head>
+
+<body>
+<div class="container">
+	<h1>Appointments</h1>
+	<h1 th:text="'Patient Name: ' + ${name}"></h1>
+	<p th:text="'Patient ID: ' + ${id}"></p>
+	<table>
+		<thead>
+		<tr>
+			<th>Appointment ID</th>
+			<th>Doctor ID</th>
+			<th>Visit Date</th>
+			<th>Slot</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr th:each="app : ${appointments}">
+			<td th:text="${app.appointment_id}"></td>
+			<td th:text="${app.doctorId}"></td>
+			<td th:text="${app.visitDate}"></td>
+			<td th:text="${app.slot}"></td>
+		</tr>
+		</tbody>
+	</table>
+	<br><br><br>
+	<button onclick="history.go(-1)">Home</button>
+</div>
+</body>
+
+</html>
