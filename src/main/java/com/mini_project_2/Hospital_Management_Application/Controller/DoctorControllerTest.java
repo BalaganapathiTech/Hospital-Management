@@ -56,10 +56,10 @@ public class DoctorControllerTest {
     public void testWelcome() throws Exception {
         given(doctorRepository.findById(1)).willReturn(Optional.of(doctor));
 
-        mockMvc.perform(get("/doctor/1"))
+        mockMvc.perform(get("/doctor/129"))
                 .andExpect(status().isOk())
                 .andExpect(view().name("doctor_welcome"))
-                .andExpect(model().attribute("id", 1))
-                .andExpect(model().attribute("name", "Dr. John"));
+                .andExpect(model().attribute("id", 129))
+                .andExpect(model().attribute("name", "Dr. Kavya"));
     }
 }
