@@ -23,6 +23,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 @Configuration
 @EnableWebSecurity
+
 public class SecurityConfig {
 
 	@Autowired
