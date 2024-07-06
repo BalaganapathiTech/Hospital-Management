@@ -3,10 +3,10 @@
 //=======================================================================
 
 
-package com.mini_project_2.Hospital_Management_Application.Controller;
+package com.mini_project_2.Patient_Medicine_and_Appointment.Controller;
 
-import com.mini_project_2.Hospital_Management_Application.Entity.Doctor;
-import com.mini_project_2.Hospital_Management_Application.Repository.*;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Doctor;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Repository.*;
 import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,8 +24,6 @@ public class DoctorControllerTest {
 
     @Autowired
     private MockMvc mockMvc;
-
-
 
     @MockBean
     private DoctorRepository doctorRepository;

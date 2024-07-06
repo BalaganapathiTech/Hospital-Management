@@ -1,9 +1,9 @@
-package com.mini_project_2.Hospital_Management_Application.Controller;
+package com.mini_project_2.Patient_Medicine_and_Appointment.Controller;
 
 
 import java.util.List;
-import com.mini_project_2.Hospital_Management_Application.Entity.*;
-import com.mini_project_2.Hospital_Management_Application.Repository.*;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.*;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -32,7 +32,7 @@ public class PatientController {
 		String name = patientRepository.findById(patientId).get().getPatient_name();
 		model.addAttribute("id", patientId);
 		model.addAttribute("name", name);
-		return "welcome";
+		return "index";
 	}
 
 	@GetMapping({ "doctordetails" })

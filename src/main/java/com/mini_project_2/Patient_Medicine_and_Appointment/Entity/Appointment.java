@@ -1,4 +1,4 @@
-package com.mini_project_2.Hospital_Management_Application.Entity;
+package com.mini_project_2.Patient_Medicine_and_Appointment.Entity;
 
 import java.time.LocalDate;
 

@@ -1,9 +1,9 @@
-package com.mini_project_2.Hospital_Management_Application.Controller;
+package com.mini_project_2.Patient_Medicine_and_Appointment.Controller;
 
-import com.mini_project_2.Hospital_Management_Application.Entity.Doctor;
-import com.mini_project_2.Hospital_Management_Application.Entity.Patient;
-import com.mini_project_2.Hospital_Management_Application.Repository.DoctorRepository;
-import com.mini_project_2.Hospital_Management_Application.Repository.PatientRepository;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Doctor;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Patient;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Repository.DoctorRepository;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Repository.PatientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.User;

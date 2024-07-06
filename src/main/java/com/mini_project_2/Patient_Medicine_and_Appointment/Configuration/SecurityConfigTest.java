@@ -3,7 +3,7 @@
 //=======================================================================
 
 
-package com.mini_project_2.Hospital_Management_Application.Configuration;
+package com.mini_project_2.Patient_Medicine_and_Appointment.Configuration;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;

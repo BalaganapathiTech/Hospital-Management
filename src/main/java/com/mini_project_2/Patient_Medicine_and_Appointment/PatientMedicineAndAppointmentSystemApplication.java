@@ -1,4 +1,4 @@
-package com.mini_project_2.Hospital_Management_Application;
+package com.mini_project_2.Patient_Medicine_and_Appointment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

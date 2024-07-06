@@ -1,9 +1,9 @@
-package com.mini_project_2.Hospital_Management_Application.Configuration;
+package com.mini_project_2.Patient_Medicine_and_Appointment.Configuration;
 
-import com.mini_project_2.Hospital_Management_Application.Entity.Doctor;
-import com.mini_project_2.Hospital_Management_Application.Entity.Patient;
-import com.mini_project_2.Hospital_Management_Application.Repository.DoctorRepository;
-import com.mini_project_2.Hospital_Management_Application.Repository.PatientRepository;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Doctor;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Patient;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Repository.DoctorRepository;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Repository.PatientRepository;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

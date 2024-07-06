@@ -1,9 +1,9 @@
-package com.mini_project_2.Hospital_Management_Application;
+package com.mini_project_2.Patient_Medicine_and_Appointment;
 
 import java.time.LocalDate;
 
-import com.mini_project_2.Hospital_Management_Application.Entity.Doctor;
-import com.mini_project_2.Hospital_Management_Application.Repository.DoctorRepository;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Doctor;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Repository.DoctorRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

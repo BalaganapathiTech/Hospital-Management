@@ -2,9 +2,9 @@
 //                          For Test Purpose only                       =
 //=======================================================================
 
-package com.mini_project_2.Hospital_Management_Application.Repository;
+package com.mini_project_2.Patient_Medicine_and_Appointment.Repository;
 
-import com.mini_project_2.Hospital_Management_Application.Entity.Doctor;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Doctor;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.data.jdbc.DataJdbcTest;

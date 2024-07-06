@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mini_project_2</groupId>
-	<artifactId>Hospital-Management</artifactId>
+	<artifactId>Patient Medicine and Appointment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Patient_Medicine_and_Appointment_System</name>
 	<description>Demo project for Spring Boot</description>

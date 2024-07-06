@@ -1,14 +1,14 @@
-package com.mini_project_2.Hospital_Management_Application.Controller;
+package com.mini_project_2.Patient_Medicine_and_Appointment.Controller;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import com.mini_project_2.Hospital_Management_Application.Entity.Appointment;
-import com.mini_project_2.Hospital_Management_Application.Entity.Medical_History;
-import com.mini_project_2.Hospital_Management_Application.Entity.Patient;
-import com.mini_project_2.Hospital_Management_Application.Entity.Prescription;
-import com.mini_project_2.Hospital_Management_Application.Repository.*;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Appointment;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Medical_History;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Patient;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Entity.Prescription;
+import com.mini_project_2.Patient_Medicine_and_Appointment.Repository.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,4 +1,4 @@
-package com.mini_project_2.Hospital_Management_Application.Entity;
+package com.mini_project_2.Patient_Medicine_and_Appointment.Entity;
 
 import java.time.LocalDate;
 
@@ -24,21 +24,19 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Doctor {
+public class Patient {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int doctor_id;
+	private int patient_id;
 
 	@NotEmpty
-	@Size(min = 2, max = 24, message = "Doctor name")
-	private String doctor_name;
+	@Size(min = 2, max = 24, message = "Patient name can have 2 or more characters")
+	private String patient_name;
 
 	@NotEmpty
 	@Past
 	private LocalDate dob;
-
-	@NotEmpty
-	private String specialization;
 
 	@NotEmpty
 	private String sex;
@@ -57,6 +55,5 @@ public class Doctor {
 
 	@NotEmpty
 	private String login_password;
-
 
 }
