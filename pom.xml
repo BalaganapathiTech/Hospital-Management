@@ -12,7 +12,6 @@
 	<artifactId>Patient Medicine and Appointment</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Patient_Medicine_and_Appointment_System</name>
-	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
